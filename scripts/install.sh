@@ -1,6 +1,6 @@
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
-InstallAppList=(
+BrewInstallAppList=(
     "discord"
     "freetube"
     "htop"
@@ -12,10 +12,19 @@ InstallAppList=(
     "zsh-autosuggestions"
 )
 
+FedoraInstallAppList=(
+    "gparted"
+)
+
 function InstallAppFunction() {
-    for App in ${InstallAppList[@]}
+    for BrewApp in ${BrewInstallAppList[@]}
     do
-        brew install $App
+        brew install $BrewApp
+    done
+    
+    for FedoraApp in ${FedoraInstallAppList[@]}
+    do
+        dnf install $FedoraApp
     done
 }
 
