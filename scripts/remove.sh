@@ -14,7 +14,7 @@ RemoveAppList=(
     "gnome-weather" #GNOME Weather
     "gucharmap" #GNOME Character Map
     "info" #Info
-    "libreoffice" #LibreOffice
+    "libreoffice*" #LibreOffice
     "liveusb-creator" #Fedora Media Writer
     "rhythmbox" #Rhythmbox
     "simple-scan" #Document Scanner
