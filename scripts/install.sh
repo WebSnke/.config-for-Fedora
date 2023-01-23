@@ -3,6 +3,7 @@
 InstallAppList=(
     "discord"
     "freetube"
+    "htop"
     "spotify"
     "steam"
     "tutanota"
