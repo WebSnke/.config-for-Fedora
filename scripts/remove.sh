@@ -23,3 +23,12 @@ RemoveAppList=(
     "ubuntu-docs" #Docs
     "yelp" #Help
 )
+
+function RemoveAppFunction() {
+    for App in ${RemoveAppList[@]}
+    do
+        dnf remove $App
+    done
+}
+
+RemoveAppFunction
