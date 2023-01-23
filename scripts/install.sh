@@ -23,7 +23,7 @@ FedoraInstallAppList=(
 function InstallAppFunction() {
     for BrewApp in ${BrewInstallAppList[@]}
     do
-        brew install $BrewApp
+        brew install --cask $BrewApp
     done
     
     for FedoraApp in ${FedoraInstallAppList[@]}
