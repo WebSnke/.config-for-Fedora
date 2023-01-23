@@ -9,6 +9,7 @@ RemoveAppList=(
     "gnome-font-viewer" #GNOME Font Viewer
     "gnome-getting-started-docs" #GNOME Getting Started
     "gnome-maps" #GNOME Maps
+    "gnome-photos" #GNOME Photos
     "gnome-system-monitor" #GNOME System Monitor
     "gnome-tour" #GNOME Tour
     "gnome-weather" #GNOME Weather
