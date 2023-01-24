@@ -5,13 +5,6 @@ brew update --force --quiet
 chmod -R go-w "$(brew --prefix)/share/zsh"
 
 BrewInstallAppList=(
-    "discord"
-    "freetube"
-    "htop"
-    "spotify"
-    "steam"
-    "tutanota"
-    "visual-studio-code"
     "zsh"
     "zsh-autosuggestions"
     "zsh-syntax-highlighting"
@@ -24,7 +17,7 @@ FedoraInstallAppList=(
 function InstallAppFunction() {
     for BrewApp in ${BrewInstallAppList[@]}
     do
-        brew install --cask $BrewApp
+        brew install $BrewApp
     done
     
     for FedoraApp in ${FedoraInstallAppList[@]}
