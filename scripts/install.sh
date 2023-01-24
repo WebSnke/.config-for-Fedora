@@ -4,6 +4,7 @@ FedoraInstallAppList=(
     "blender"
     "gparted"
     "vim"
+    "zsh"
 )
 
 FlatpakInstallAppList=(
