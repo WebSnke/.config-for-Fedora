@@ -14,6 +14,7 @@ BrewInstallAppList=(
     "visual-studio-code"
     "zsh"
     "zsh-autosuggestions"
+    "zsh-syntax-highlighting"
 )
 
 FedoraInstallAppList=(
