@@ -16,6 +16,7 @@ FedoraInstallAppList=(
 )
 
 FlatpakInstallAppList=(
+    "brave"
     "freetube"
     "spotify"
     "steam"
