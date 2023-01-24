@@ -1,8 +1,5 @@
-git clone https://github.com/Homebrew/brew homebrew
-
-eval "$(homebrew/bin/brew shellenv)"
-brew update --force --quiet
-chmod -R go-w "$(brew --prefix)/share/zsh"
+sudo yum groupinstall 'Development Tools'
+sudo yum install procps-ng curl file git
 
 BrewInstallAppList=(
     "zsh"
