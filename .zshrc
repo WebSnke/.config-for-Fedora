@@ -1,0 +1,10 @@
+plugins=(
+	copybuffer
+	copypath
+	dirhistory
+	git
+	sudo
+	web-search
+	zsh-syntax-highlighting
+	zsh-autosuggestions
+)
