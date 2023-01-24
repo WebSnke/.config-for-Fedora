@@ -1,13 +1,4 @@
-sudo yum groupinstall 'Development Tools' #Add Development Tools for Homebrew
-sudo yum install procps-ng curl file git
-
 flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo #Install Flathub
-
-BrewInstallAppList=(
-    "zsh"
-    "zsh-autosuggestions"
-    "zsh-syntax-highlighting"
-)
 
 FedoraInstallAppList=(
     "blender"
@@ -23,11 +14,6 @@ FlatpakInstallAppList=(
     "tutanota"
     "visualstudio"
 )
-
-for BrewApp in ${BrewInstallAppList[@]}
-do
-    brew install $BrewApp
-done
 
 for FedoraApp in ${FedoraInstallAppList[@]}
 do
