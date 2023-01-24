@@ -1,11 +1,11 @@
 #!/bin/bash
 
 RemoveAppList=(
-    "gnome-abrt" #GNOME Problem Reporting
     "cheese" #GNOME Cheese
     "baobab" #GNOME Disk Usage Analyzer
     "eog" #GNOME Image Viewer
     "evince" #Document Viewer
+    "gnome-abrt" #GNOME Problem Reporting
     "gnome-boxes" #GNOME Boxes
     "gnome-calendar" #GNOME Calendar
     "gnome-characters" #GNOME Characters
