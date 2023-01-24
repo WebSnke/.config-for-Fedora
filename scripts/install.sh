@@ -10,6 +10,7 @@ BrewInstallAppList=(
 )
 
 FedoraInstallAppList=(
+    "blender"
     "gparted"
 )
 
