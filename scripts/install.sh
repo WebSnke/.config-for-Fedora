@@ -3,6 +3,7 @@ flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flat
 FedoraInstallAppList=(
     "blender"
     "gparted"
+    "htop"
     "vim"
     "zsh"
 )
