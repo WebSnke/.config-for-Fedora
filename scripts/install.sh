@@ -12,6 +12,7 @@ BrewInstallAppList=(
 FedoraInstallAppList=(
     "blender"
     "gparted"
+    "vim"
 )
 
 FlatpakInstallAppList=(
