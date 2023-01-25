@@ -11,6 +11,7 @@ echo "source $(brew --prefix)/opt/powerlevel10k/powerlevel10k.zsh-theme" >>~/.zs
 FedoraInstallAppList=(
     "blender"
     "gparted"
+    "groupinstall 'Development Tools'"
     "htop"
     "neofetch"
     "vim"
