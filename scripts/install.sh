@@ -1,4 +1,12 @@
 flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
+BrewInstallAppList=(
+    "zsh"
+    "romkatv/powerlevel10k/powerlevel10k"
+)
+
+echo "source $(brew --prefix)/opt/powerlevel10k/powerlevel10k.zsh-theme" >>~/.zshrc
 
 FedoraInstallAppList=(
     "blender"
