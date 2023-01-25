@@ -14,6 +14,7 @@ RemoveAppList=(
     "gnome-disk-utility" #GNOME Disks
     "gnome-font-viewer" #GNOME Font Viewer
     "gnome-getting-started-docs" #GNOME Getting Started
+    "gnome-logs" #GNOME Logs
     "gnome-maps" #GNOME Maps
     "gnome-photos" #GNOME Photos
     "gnome-system-monitor" #GNOME System Monitor
