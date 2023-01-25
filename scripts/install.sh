@@ -4,6 +4,7 @@ FedoraInstallAppList=(
     "blender"
     "gparted"
     "htop"
+    "neofetch"
     "vim"
     "zsh"
 )
