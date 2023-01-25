@@ -8,5 +8,3 @@ plugins=(
 	zsh-syntax-highlighting
 	zsh-autosuggestions
 )
-
-ZSH_THEME="powerlevel10k/powerlevel10k"
