@@ -31,11 +31,7 @@ RemoveAppList=(
     "yelp" #Help
 )
 
-function RemoveAppFunction() {
-    for App in ${RemoveAppList[@]}
-    do
-        dnf remove $App
-    done
-}
-
-RemoveAppFunction
+for App in ${RemoveAppList[@]}
+do
+    dnf remove $App
+done
