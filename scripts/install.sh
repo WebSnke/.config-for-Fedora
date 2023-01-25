@@ -1,12 +1,4 @@
 flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-
-BrewInstallAppList=(
-    "zsh"
-    "romkatv/powerlevel10k/powerlevel10k"
-)
-
-echo "source $(brew --prefix)/opt/powerlevel10k/powerlevel10k.zsh-theme" >>~/.zshrc
 
 FedoraInstallAppList=(
     "blender"
@@ -36,13 +28,6 @@ do
     flatpak install $FlatpakApp
 done
 
-for BrewApp in ${BrewInstallAppList[@]}
-do
-    brew install $BrewApp
-done
-
 sudo dnf -y install https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm
 sudo dnf -y install https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm
 sudo dnf -y install ffmpeg
-
-sh -c "$(wget https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh -O -)"
