@@ -3,7 +3,6 @@ flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flat
 FedoraInstallAppList=(
     "blender"
     "gparted"
-    "groupinstall 'Development Tools'"
     "htop"
     "neofetch"
     "vim"
