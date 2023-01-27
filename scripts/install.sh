@@ -5,6 +5,7 @@ FedoraInstallAppList=(
     "gparted"
     "htop"
     "neofetch"
+    "util-linux-user"
     "vim"
     "zsh"
 )
