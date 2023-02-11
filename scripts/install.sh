@@ -1,6 +1,7 @@
 FedoraInstallAppList=(
     "gparted"
     "neofetch"
+    "nodejs"
     "util-linux-user"
     "vim"
     "zsh"
