@@ -6,9 +6,19 @@ FedoraInstallAppList=(
     "zsh"
 )
 
+FlathubInstallAppList=(
+    "com.discord.client"
+    "com.spotify.client"
+)
+
 for FedoraApp in ${FedoraInstallAppList[@]}
 do
     dnf install $FedoraApp
+done
+
+for FlathubApp in ${FlathubInstallAppList[@]}
+do
+    flatpak install flathub $FlathubApp
 done
 
 sudo dnf -y install https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm
