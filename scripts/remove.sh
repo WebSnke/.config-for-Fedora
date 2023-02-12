@@ -9,6 +9,7 @@ RemoveAppList=(
     "gnome-boxes" #GNOME Boxes
     "gnome-calendar" #GNOME Calendar
     "gnome-characters" #GNOME Characters
+    "gnome-clocks" #GNOME Clocks
     "gnome-connections" #GNOME Connections
     "gnome-contacts" #GNOME Contacts
     "gnome-disk-utility" #GNOME Disks
