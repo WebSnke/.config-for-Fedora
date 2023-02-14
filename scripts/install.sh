@@ -10,6 +10,7 @@ FedoraInstallAppList=(
 FlathubInstallAppList=(
     "com.discordapp.Discord"
     "com.spotify.Client"
+    "org.chromium.Chromium"
 )
 
 for FedoraApp in ${FedoraInstallAppList[@]}
