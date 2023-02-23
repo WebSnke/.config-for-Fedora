@@ -11,6 +11,7 @@ FedoraInstallAppList=(
 
 FlathubInstallAppList=(
     "com.discordapp.Discord"
+    "com.tutanota.Tutanota"
     "com.spotify.Client"
     "org.chromium.Chromium"
 )
