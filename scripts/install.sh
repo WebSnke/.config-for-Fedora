@@ -2,6 +2,7 @@ flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flat
 
 FedoraInstallAppList=(
     "gparted"
+    "lm_sensors"
     "neofetch"
     "nodejs"
     "util-linux-user"
