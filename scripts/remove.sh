@@ -3,8 +3,6 @@
 RemoveAppList=(
     "cheese" #GNOME Cheese
     "baobab" #GNOME Disk Usage Analyzer
-    "eog" #GNOME Image Viewer
-    "evince" #Document Viewer
     "gnome-abrt" #GNOME Problem Reporting
     "gnome-boxes" #GNOME Boxes
     "gnome-calendar" #GNOME Calendar
@@ -17,8 +15,6 @@ RemoveAppList=(
     "gnome-getting-started-docs" #GNOME Getting Started
     "gnome-maps" #GNOME Maps
     "gnome-photos" #GNOME Photos
-    "gnome-software" #GNOME Software
-    "gnome-system-monitor" #GNOME System Monitor
     "gnome-tour" #GNOME Tour
     "gnome-weather" #GNOME Weather
     "gucharmap" #GNOME Character Map
@@ -27,9 +23,6 @@ RemoveAppList=(
     "liveusb-creator" #Fedora Media Writer
     "rhythmbox" #Rhythmbox
     "simple-scan" #Document Scanner
-    "totem" #GNOME Videos
-    "totem-plugins" #GNOME Videos
-    "ubuntu-docs" #Docs
     "yelp" #Help
 )
 
