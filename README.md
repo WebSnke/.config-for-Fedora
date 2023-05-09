@@ -37,9 +37,3 @@ The installation script only requires [`Fedora Workstation`][fedora].
     > This script removes some useless apps.
 
 4. Enjoy!
-
-## Contribution
-
-Contributions to this project are not intended.
-
-[fedora]: https://getfedora.org/en/workstation/
