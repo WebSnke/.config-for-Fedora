@@ -29,5 +29,3 @@ for App in ${RemoveAppList[@]}
 do
     dnf remove $App
 done
-
-rm /usr/share/applications/gnome-online-accounts-panel.desktop
