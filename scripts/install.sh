@@ -5,6 +5,8 @@ FedoraInstallAppList=(
     "ffmpeg"
     "gparted"
     "lm_sensors"
+    "vim"
+    "zsh"
 )
 
 FlathubInstallAppList=(
@@ -14,7 +16,7 @@ FlathubInstallAppList=(
 
 for FlathubApp in ${FlathubInstallAppList[@]}
 do
-    flatpak install flathub $FlathubApp
+    flatpak install flathub $FlathubApp -y
 done
 
 sudo rpm --import https://packages.microsoft.com/keys/microsoft.asc
@@ -22,5 +24,5 @@ sudo sh -c 'echo -e "[code]\nname=Visual Studio Code\nbaseurl=https://packages.m
 
 for FedoraApp in ${FedoraInstallAppList[@]}
 do
-    dnf install $FedoraApp
+    dnf install $FedoraApp -y
 done
