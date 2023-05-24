@@ -8,7 +8,7 @@
 
 ### Requirements
 
-The installation script only requires [`Fedora Workstation`][fedora].
+The installation script only requires Fedora Workstation.
 
 ### Installation
 
@@ -20,11 +20,6 @@ The installation script only requires [`Fedora Workstation`][fedora].
     ```   
     
 2. Run the included scripts.
-    
-    ```sh
-    sudo bash gnome.sh
-    ``` 
-    > This script updates your system.
     
     ```sh
     sudo bash install.sh
