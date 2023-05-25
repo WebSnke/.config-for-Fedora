@@ -27,5 +27,5 @@ RemoveAppList=(
 
 for App in ${RemoveAppList[@]}
 do
-    dnf remove $App
+    dnf remove $App -y
 done
