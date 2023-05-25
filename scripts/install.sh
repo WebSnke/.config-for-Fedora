@@ -2,7 +2,6 @@ flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flat
 
 FedoraInstallAppList=(
     "code"
-    "ffmpeg"
     "gparted"
     "lm_sensors"
     "vim"
