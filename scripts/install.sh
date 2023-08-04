@@ -28,3 +28,5 @@ for FedoraApp in ${FedoraInstallAppList[@]}
 do
     dnf install -y $FedoraApp 
 done
+
+sudo dnf install -y ffmpeg --allowerasing
