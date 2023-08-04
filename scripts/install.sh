@@ -9,7 +9,7 @@ FedoraInstallAppList=(
 )
 
 FlathubInstallAppList=(
-    "com.discordapp.Discord"
+    "com.google.Chrome"
     "com.spotify.Client"
 )
 
