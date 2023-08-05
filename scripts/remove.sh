@@ -8,7 +8,6 @@ RemoveAppList=(
     "gnome-characters" #GNOME Characters
     "gnome-clocks" #GNOME Clocks
     "gnome-connections" #GNOME Connections
-    "gnome-disk-utility" #GNOME Disks
     "gnome-font-viewer" #GNOME Font Viewer
     "gnome-getting-started-docs" #GNOME Getting Started
     "gnome-maps" #GNOME Maps
