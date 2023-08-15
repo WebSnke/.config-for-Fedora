@@ -6,7 +6,6 @@ RemoveAppList=(
     "gnome-abrt" #GNOME Problem Reporting
     "gnome-boxes" #GNOME Boxes
     "gnome-characters" #GNOME Characters
-    "gnome-clocks" #GNOME Clocks
     "gnome-connections" #GNOME Connections
     "gnome-font-viewer" #GNOME Font Viewer
     "gnome-getting-started-docs" #GNOME Getting Started
