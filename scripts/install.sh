@@ -8,6 +8,7 @@ FedoraInstallAppList=(
 )
 
 FlathubInstallAppList=(
+    "io.github.shiftey.Desktop"
     "com.google.Chrome"
     "com.spotify.Client"
     "org.signal.Signal"
