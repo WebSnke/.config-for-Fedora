@@ -10,6 +10,7 @@ FedoraInstallAppList=(
 FlathubInstallAppList=(
     "com.google.Chrome"
     "com.spotify.Client"
+    "org.signal.Signal"
 )
 
 for FlathubApp in ${FlathubInstallAppList[@]}
