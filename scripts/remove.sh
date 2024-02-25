@@ -11,6 +11,7 @@ RemoveAppList=(
     "gnome-getting-started-docs" #GNOME Getting Started
     "gnome-maps" #GNOME Maps
     "gnome-tour" #GNOME Tour
+    "gnome-weather" #GNOME Weather
     "gucharmap" #GNOME Character Map
     "info" #Info
     "libreoffice*" #LibreOffice
