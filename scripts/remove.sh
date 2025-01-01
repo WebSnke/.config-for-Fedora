@@ -1,5 +1,3 @@
-#!/bin/bash
-
 RemoveAppList=(
     "cheese" #GNOME Cheese
     "baobab" #GNOME Disk Usage Analyzer
