@@ -8,6 +8,8 @@ FlathubInstallAppList=(
     "io.github.shiftey.Desktop"
 )
 
+dnf upgrade
+
 for FedoraApp in ${FedoraInstallAppList[@]}
 do
     dnf install -y $FedoraApp 
