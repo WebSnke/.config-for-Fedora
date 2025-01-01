@@ -16,7 +16,7 @@ The installation script only requires Fedora.
 
     ```sh
     git clone https://github.com/WebSnke/.config-for-Fedora
-    cd .config/scripts
+    cd .config-for-Fedora/scripts
     ```   
     
 2. Run the included scripts.
