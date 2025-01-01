@@ -1,4 +1,4 @@
-<h1 align="center">.config</h1>
+<h1 align="center">.config for Fedora</h1>
 
 <p align="center"><img src="https://www.fedoraproject.org/w/uploads/2/2d/Logo_fedoralogo.png"></p>
 
