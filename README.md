@@ -1,21 +1,21 @@
 <h1 align="center">.config for Fedora</h1>
 
-<p align="center"><img src="https://www.fedoraproject.org/w/uploads/2/2d/Logo_fedoralogo.png"></p>
+<p align="center"><img width="512px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Fedora_logo_%282021%29.svg/1920px-Fedora_logo_%282021%29.svg.png"></p>
 
-<p align="center">A collection of scripts and files for Fedora Workstation.</p>
+<p align="center">A collection of scripts and files for Fedora.</p>
 
 ## Getting started
 
 ### Requirements
 
-The installation script only requires Fedora Workstation.
+The installation script only requires Fedora.
 
 ### Installation
 
 1. Clone this repository
 
     ```sh
-    git clone https://github.com/WebSnke/.config
+    git clone https://github.com/WebSnke/.config-for-Fedora
     cd .config/scripts
     ```   
     
