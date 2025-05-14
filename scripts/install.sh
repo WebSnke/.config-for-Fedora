@@ -6,6 +6,7 @@ FlathubInstallAppList=(
     "com.spotify.Client"
     "com.visualstudio.code"
     "io.github.shiftey.Desktop"
+    "md.obsidian.Obsidian"
 )
 
 dnf upgrade
