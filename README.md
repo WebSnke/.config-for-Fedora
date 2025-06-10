@@ -2,6 +2,10 @@
 
 <p align="center">A collection of scripts and files for Fedora.</p>
 
+<p align="center"><a><img width="40%" src="https://docs.fedoraproject.org/en-US/project/_images/logo/fedora_white-vertical.png"></a></p>
+
+---
+
 ## Getting started
 
 ### Requirements
@@ -30,3 +34,13 @@ The installation script only requires Fedora.
     > This script removes some useless apps.
 
 4. Enjoy!
+
+## License
+
+<a href="https://opensource.org/license/gpl-3-0/">
+  <img align="right" height="96" alt="GPL-3.0" src="https://upload.wikimedia.org/wikipedia/commons/9/93/GPLv3_Logo.svg" />
+</a>
+
+This project is licensed under the GPL-3.0.
+
+The full text of the license can be accessed via [this link](https://opensource.org/license/gpl-3-0/) and is also included in the LICENSE file of this software package.
